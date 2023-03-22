@@ -30,25 +30,54 @@ header>i#menu{
     padding-left: 2%;
     width: 100vw;
     color: white;
-    background-color: var(--color-laranja);
+    background-color: #d37707;;
     cursor: pointer;
+}
+
+header>i#menu:hover{
+    color: black;
+    background-color: var(--color-laranja);
 }
 
 menu{
     display: none;
+    
 }
 
 header>menu>ul{
-    padding-left: 2.2%;
-    
+    padding-left: 2.2vw;
     position: relative;
     
 }
 
 ul>li{
     padding: 3px;
-    list-style-type: none;
-    
+    list-style-type: none;    
         
+}
+
+
+
+ul>li>a{
+    display: block;
+    width: 20%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #d37707;
+    color: white;
+    border-radius: 15px;
+    border-top: 5px 6px solid black;
+    transition: .3s;
+    
+}
+
+ul>li>a:hover{
+    color: black;
+    background-color: var(--color-laranja);
+    
+    
+
+
 }
 
